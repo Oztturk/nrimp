@@ -42,8 +42,6 @@ pub const IMPERSONATE_LIST: &[Impersonate] = &[
     Impersonate::Safari17_5,
     Impersonate::Safari18,
     Impersonate::Safari18_2,
-    //Impersonate::OkHttp3_9,
-    //Impersonate::OkHttp3_11,
     Impersonate::OkHttp3_13,
     Impersonate::OkHttp3_14,
     Impersonate::OkHttp4_9,
@@ -59,6 +57,7 @@ pub const IMPERSONATE_LIST: &[Impersonate] = &[
     Impersonate::Firefox133,
     Impersonate::Firefox135,
 ];
+
 pub const IMPERSONATEOS_LIST: &[ImpersonateOS] = &[
     ImpersonateOS::Android,
     ImpersonateOS::IOS,
@@ -68,7 +67,7 @@ pub const IMPERSONATEOS_LIST: &[ImpersonateOS] = &[
 ];
 
 pub fn get_random_element<T>(input_vec: &[T]) -> &T {
-    input_vec.choose(&mut rand::rng()).unwrap()
+    input_vec.choose(&mut rand::thread_rng()).unwrap()
 }
 
 pub trait ImpersonateFromStr {

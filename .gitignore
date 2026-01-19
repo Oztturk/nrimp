@@ -1,76 +1,26 @@
-/target
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
 
-# Byte-compiled / optimized / DLL files
-__pycache__/
-.pytest_cache/
-*.py[cod]
+# Rust
+target/
+**/*.rs.bk
 
-# C extensions
-*.so
+# N-API
+*.node
+*.pdb
+*.obj
+*.lib
+*.exp
+*.ilk
 
-# Distribution / packaging
-.Python
-.venv/
-env/
-bin/
+# Build
 build/
-develop-eggs/
-dist/
-eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-include/
-man/
-venv/
-*.egg-info/
-.installed.cfg
-*.egg
+prebuilds/
+.npmrc
 
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
-pip-selfcheck.json
-
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.coverage
-.cache
-nosetests.xml
-coverage.xml
-
-# Translations
-*.mo
-
-# Mr Developer
-.mr.developer.cfg
-.project
-.pydevproject
-
-# Rope
-.ropeproject
-
-# Django stuff:
-*.log
-*.pot
-
-.DS_Store
-
-# Sphinx documentation
-docs/_build/
-
-# PyCharm
-.idea/
-
-# VSCode
+# Editor
 .vscode/
-
-# Pyenv
-.python-version
-
-# Ignore csv and jpg files in benchmark folder
-benchmark/*.csv
-benchmark/*.jpg
+.idea/
+*.swp

@@ -1,8 +1,30 @@
 {
   "name": "nrimp",
   "version": "0.1.0",
+  "description": "High-performance Node.js HTTP client with browser impersonation using Rust rquest library",
   "main": "index.js",
   "types": "index.d.ts",
+  "keywords": [
+    "http",
+    "client",
+    "browser-impersonation",
+    "tls",
+    "ja3",
+    "ja4",
+    "rust",
+    "napi",
+    "rquest",
+    "fingerprint"
+  ],
+  "author": "Yusuf Ozturk",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Oztturk/nrimp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Oztturk/nrimp/issues"
+  },
   "napi": {
     "name": "nrimp",
     "triples": {
@@ -34,5 +56,20 @@
   },
   "engines": {
     "node": ">= 10"
+  },
+  "optionalDependencies": {
+    "nrimp-win32-x64-msvc": "0.1.0",
+    "nrimp-darwin-x64": "0.1.0",
+    "nrimp-linux-x64-gnu": "0.1.0",
+    "nrimp-linux-x64-musl": "0.1.0",
+    "nrimp-linux-arm64-gnu": "0.1.0",
+    "nrimp-win32-ia32-msvc": "0.1.0",
+    "nrimp-linux-arm-gnueabihf": "0.1.0",
+    "nrimp-darwin-arm64": "0.1.0",
+    "nrimp-android-arm64": "0.1.0",
+    "nrimp-freebsd-x64": "0.1.0",
+    "nrimp-linux-arm64-musl": "0.1.0",
+    "nrimp-win32-arm64-msvc": "0.1.0",
+    "nrimp-android-arm-eabi": "0.1.0"
   }
 }

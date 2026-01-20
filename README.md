@@ -2,6 +2,8 @@
 
 **nrimp** is a high-performance Node.js HTTP client binding for the Rust `rquest` library. It enables **browser impersonation** (mimicking Chrome, Safari, Firefox, Edge TLS/JA3/JA4 fingerprints) to bypass sophisticated anti-bot systems, all while providing a simple TypeScript API.
 
+> This package is a Node.js adaptation and fork of [primp](https://github.com/deedy5/primp), bringing browser impersonation capabilities to the Node.js ecosystem.
+
 ## Features
 
 -   **Browser Impersonation**: Mimic real browser TLS fingerprints (JA3/JA4) and HTTP/2 behavior.

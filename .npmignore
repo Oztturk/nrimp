@@ -1,0 +1,14 @@
+target/
+.cargo/
+*.node
+!nrimp.*.node
+src/
+build.rs
+Cargo.lock
+Cargo.toml
+test.js
+*.swp
+*.orig
+.DS_Store
+.vscode/
+.idea/
